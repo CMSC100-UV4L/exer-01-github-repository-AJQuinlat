@@ -1,0 +1,61 @@
+/* import statement for fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;600;800;900&family=Roboto+Slab:wght@200;300;500;600&display=swap');
+
+/* normalizing margin and padding along with guidelines*/
+* {
+    margin: 0px;
+    padding: 0px;
+    outline: 1px dotted red;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    background-color: #f5f5f5;
+}
+
+.profile {
+    padding: 5%;
+    background-color: #3C725B;
+    display: block;
+    padding: 5% 15%;
+}
+
+.info {
+    padding: 2%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+h1 {
+    font-family: "Roboto Slab", "sans-serif";
+    font-size: 50px;
+    font-weight: 600;
+    color: #f5f5f5;
+
+}
+
+h2 {
+    font-family: "Roboto Slab", "sans-serif";
+    font-weight: 200;
+    font-size: 25px;
+    color: #f5f5f5;
+
+}
+
+img {
+    padding: 20px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    vertical-align: middle;
+    
+}
+
+.line{
+    width: 50px;
+    margin-top: 40px;
+    border-bottom: 2px solid #f5f5f5;
+    display: inline-block;
+}
