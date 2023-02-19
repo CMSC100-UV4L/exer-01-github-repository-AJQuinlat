@@ -1,14 +1,15 @@
 /* import statement for fonts */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;600;800;900&family=Roboto+Slab:wght@200;300;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;500;600&display=swap');
 
 /* normalizing margin and padding along with guidelines*/
 * {
     margin: 0px;
     padding: 0px;
-    outline: 1px dotted red;
+    /*outline: 1px dotted red;*/
 }
 
 body {
+    font-family: "Roboto Slab", "sans-serif";
     height: 100%;
     margin: 0;
     background-color: #f5f5f5;
@@ -28,7 +29,6 @@ body {
 }
 
 h1 {
-    font-family: "Roboto Slab", "sans-serif";
     font-size: 50px;
     font-weight: 600;
     color: #f5f5f5;
@@ -36,7 +36,6 @@ h1 {
 }
 
 h2 {
-    font-family: "Roboto Slab", "sans-serif";
     font-weight: 200;
     font-size: 25px;
     color: #f5f5f5;
@@ -58,4 +57,38 @@ img {
     margin-top: 40px;
     border-bottom: 2px solid #f5f5f5;
     display: inline-block;
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: 600;
+    color: #3C725B;
+    height: 10vh;
+    margin-bottom: 5vh;
+}
+
+p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #3C725B;
+}
+
+.favorites {
+    padding: 3%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    border-color: #3C725B;
+    border-style: solid;
+    border-radius: 5%;
+    border-width: 3px;
+    width: 20vw;
+    height: 45vh;
+    margin: 1%;
+    padding: 2%;
+    display: inline-block;
+    vertical-align: middle;
+    
 }
