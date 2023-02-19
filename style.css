@@ -62,15 +62,15 @@ img {
 h3 {
     font-size: 30px;
     font-weight: 600;
-    color: #3C725B;
+    color: #121212;
     height: 10vh;
     margin-bottom: 5vh;
 }
 
 p {
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 400;
-    color: #3C725B;
+    color: #121212;
 }
 
 .favorites {
@@ -92,3 +92,30 @@ p {
     vertical-align: middle;
     
 }
+
+.extra {
+    background-color: #3C725B;
+    padding: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    .extra .box {
+        align-items: center;
+        width: fit-content;
+        border: 0px;
+        border-radius: 0;
+        margin: 5%;
+    }
+
+    .extra .box h3 {
+        color: #f5f5f5;
+    }
+
+    .extra .box li {
+        color: #f5f5f5;
+        margin-left: 1vw;
+        font-size: 14px;
+        font-weight: 300;
+    }
